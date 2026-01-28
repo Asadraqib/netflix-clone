@@ -1,10 +1,10 @@
-🎬 Netflix Homepage Clone
+## Netflix Homepage Clone
 
 A frontend-only Netflix homepage clone inspired by CodeWithHarry’s tutorial, enhanced with improved responsiveness and UI refinements for better accuracy.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * Responsive layout for different screen sizes
 * Clean and modern Netflix-like UI
