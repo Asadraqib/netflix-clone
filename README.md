@@ -18,7 +18,7 @@ A frontend-only Netflix homepage clone inspired by CodeWithHarry’s tutorial, e
 ## 🛠️ Tech Stack
 
 * **HTML**
-* **CSS3**
+* **CSS**
 
 ---
 
