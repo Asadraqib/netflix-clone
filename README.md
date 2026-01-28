@@ -15,33 +15,33 @@ A frontend-only Netflix homepage clone inspired by CodeWithHarry’s tutorial, e
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **HTML**
 * **CSS**
 
 ---
 
-## 📱 Responsiveness
+##  Responsiveness
 
 The website is optimized for:
 
-* Desktop 💻
-* Tablet 📱
-* Mobile screens 📲
+* Desktop 
+* Tablet 
+* Mobile screens 
 
 Media queries and flexible layouts were used to ensure a smooth responsive experience.
 
 ---
 
-## 📚 Learning Source
+##  Learning Source
 
 * **CodeWithHarry – YouTube**
   This project was initially built by following the tutorial and then customized with my own improvements.
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 This project was created for:
 
@@ -52,7 +52,7 @@ This project was created for:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <img width="1895" height="855" alt="Screenshot 2026-01-28 180131" src="https://github.com/user-attachments/assets/dc5f4bf0-b01f-4ed3-9cc9-7087b2827b0d" />
 <img width="1889" height="853" alt="Screenshot 2026-01-28 180157" src="https://github.com/user-attachments/assets/a6f9fef9-fe3f-41f4-9b08-5c6cc2cce472" />
@@ -61,7 +61,7 @@ This project was created for:
 
 ---
 
-## 📂 How to Run Locally
+##  How to Run Locally
 
 1. Clone the repository
 
@@ -72,7 +72,7 @@ This project was created for:
 
 ---
 
-## ⭐ Feedback
+##  Feedback
 
 If you like this project, feel free to ⭐ the repository and share your feedback!
 
