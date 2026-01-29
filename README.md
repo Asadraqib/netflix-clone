@@ -19,7 +19,7 @@ A frontend-only Netflix homepage clone inspired by CodeWithHarry’s tutorial, e
 
 * **HTML**
 * **CSS**
-
+  
 ---
 
 ##  Responsiveness
@@ -38,6 +38,8 @@ Media queries and flexible layouts were used to ensure a smooth responsive exper
 
 * **CodeWithHarry – YouTube**
   This project was initially built by following the tutorial and then customized with my own improvements.
+* **Chat Gpt**
+  For industry ready class naems and variable names and for some formatting
 
 ---
 
