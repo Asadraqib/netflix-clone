@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background: url(bg.jpg) center/cover no-repeat;
+    height: 696px;
+}
+
+.opacitybox {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 696px;
+    background-color: black;
+    opacity: 0.69;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+.translate_btn {
+    padding: 6px 12px;
+    background-color: rgba(26, 26, 26, 0.8);
+    border: 1px solid gray;
+}
+
+.hero {
+    width: 80vw;
+    margin: auto;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.hero h1 {
+    max-width: 40vw;
+    font-size: 60px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hero span {
+    font-weight: 400;
+}
+
+.hero input {
+    padding: 18px 180px 18px 18px;
+    background-color: rgba(26, 26, 26, 0.8);
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+}
+
+.hero_btn {
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+
+.red-btn {
+    background-color: rgba(235, 21, 21, 0.94);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.red-btn:hover {
+    background-color: rgb(199, 17, 17);
+}
+
+.sign_in_btn {
+    padding: 6px 13px;
+}
+
+.get_started_btn {
+    padding: 13px 20px;
+    font-size: 25px;
+    color: white;
+    border-radius: 4px;
+}
+
+.seperation {
+    height: 8px;
+    background-color: rgba(128, 128, 128, 0.396);
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    color: white;
+    line-height: 1.3;
+}
+
+.section_txt {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_txt span:first-child {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.section_txt span:last-child {
+    font-size: 28px;
+}
+
+.section_img {
+    position: relative;
+}
+
+.section_img img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.firstframe video,
+.secondframe video {
+    position: absolute;
+    top: 72px;
+    right: 52px;
+    width: 430px;
+}
+
+.secondframe video {
+    width: 460px;
+}
+
+.faq {
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 50px 0 0 0;
+    gap: 8px;
+}
+
+.faq h2 {
+    font-size: 54px;
+}
+
+.faqbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #2d2d2d;
+    width: 80vw;
+    height: 85px;
+    margin: auto;
+    text-align: left;
+    transition: all 1s ease-out;
+}
+
+.faqbox:hover {
+    background-color: #5e5e5e;
+    cursor: pointer;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.redirect {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.redirect span {
+    display: block;
+    padding: 13px 0;
+}
+
+.get_started_btn {
+    padding: 6px 45px;
+    font-size: 25px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(235, 21, 21, 0.94);
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.redirect_btn input {
+    padding: 16px 300px 16px 16px;
+    background-color: rgba(26, 26, 26, 0.8);
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 25px;
+    color: white;
+}
+
+.redirect_btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.redirect_translate_btn{
+    padding: 50px 0;
+}
+
+.redirect_translate_btn .translate_btn{
+    padding: 6px 12px;
+    background-color: rgba(26, 26, 26, 0.8);
+    border: 1px solid gray;
+     position: relative;
+    z-index: 10;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.718);
+    max-width: 80vw;
+    margin: auto;
+}
+
+footer .questions {
+    font-size: 17px;
+    padding: 34px 0;
+}
+
+.footer {
+    color: rgba(255, 255, 255, 0.718);
+}
+
+.footer-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 12px 24px;
+    font-size: 15px;
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.718);
+}
+
+.captcha{
+    padding: 30px 0 100px 0;
+    font-size: 13px;
+}
+.captcha a{
+    color: rgb(68, 142, 244);
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  nav{
+        max-width: 85vw;
+    }
+
+    nav .logo img{
+        width: 150px;
+    }
+
+    .hero{
+        padding-top: 150px;
+    }
+
+    .hero h1 {
+        max-width: 70%;
+        font-size: 45px; 
+    }
+    .hero p {
+        font-size: 24px;
+    }
+    .hero span {
+        font-size: 19px;
+    }
+
+    .hero_btn input{
+        padding: 15px 115px 15px 15px;
+        font-size: 14px;
+    }
+
+    .get_started_btn {
+        font-size: 19px;
+        padding: 12px 17px;
+        margin: auto;
+    }
+    
+    .section{
+        max-width: 90vw;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .section_img img {
+        width: 555px;
+    }
+
+    .firstframe video,
+    .secondframe video {
+        width: 455px;
+        top: 74px;
+        right: 35px;
+    }
+
+    .faqbox{
+        width: 90vw;
+    }
+
+    .faq h2 {
+        font-size: 38px;
+    }
+
+    .redirect_btn input {
+        padding: 18px 310px 18px 18px;
+        font-size: 18px;
+    }
+
+    .redirect_btn .get_started_btn {
+        margin: 0;
+    }
+
+    footer{
+        max-width: 90vw;
+        padding: 10px;
+    }
+
+    .footer-item{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  nav{
+        max-width: 85vw;
+    }
+
+    nav .logo img{
+        width: 150px;
+    }
+
+    .hero{
+        padding-top: 150px;
+    }
+
+    .hero h1 {
+        max-width: 70%;
+        font-size: 45px; 
+    }
+    .hero p {
+        font-size: 24px;
+    }
+    .hero span {
+        font-size: 19px;
+    }
+
+    .hero_btn input{
+        padding: 15px 115px 15px 15px;
+        font-size: 14px;
+    }
+
+    .get_started_btn {
+        font-size: 19px;
+        padding: 12px 17px;
+        margin: auto;
+    }
+    
+    .section{
+        max-width: 90vw;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .section_img img {
+        width: 555px;
+    }
+
+    .firstframe video,
+    .secondframe video {
+        width: 455px;
+        top: 74px;
+        right: 35px;
+    }
+
+    .faqbox{
+        width: 90vw;
+    }
+
+    .faq h2 {
+        font-size: 38px;
+    }
+
+    .redirect_btn input {
+        padding: 18px 310px 18px 18px;
+        font-size: 18px;
+    }
+
+    .redirect_btn .get_started_btn {
+        margin: 0;
+    }
+
+    footer{
+        max-width: 90vw;
+        padding: 10px;
+    }
+
+    .footer-item{
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    nav{
+        max-width: 90vw;
+    }
+
+    nav .logo img{
+        width: 100px;
+    }
+
+    .hero{
+        padding-top: 80px;
+    }
+
+    .hero h1 {
+        max-width: 100%;
+        font-size: 41px; 
+    }
+    .hero p {
+        font-size: 21px;
+    }
+    .hero span {
+        font-size: 19px;
+    }
+
+    .hero_btn{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_btn input{
+        padding: 15px 115px 15px 15px;
+        font-size: 14px;
+    }
+
+    .get_started_btn {
+        font-size: 19px;
+        padding: 12px 17px;
+        margin: auto;
+    }
+    
+    .section{
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .section_img img {
+        width: 333px;
+    }
+
+    .firstframe video,
+    .secondframe video {
+        width: 255px;
+        top: 44px;
+        right: 39px;
+    }
+
+    .faq h2 {
+        font-size: 38px;
+    }
+    
+    .redirect_btn{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .redirect_btn input {
+        padding: 15px 115px 15px 15px;
+        font-size: 14px;
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .redirect_btn .get_started_btn {
+        margin: 0;
+    }
+
+    footer{
+        max-width: 90vw;
+        padding: 10px;
+    }
+
+    .footer-item{
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}
