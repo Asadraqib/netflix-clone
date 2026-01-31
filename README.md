@@ -38,8 +38,6 @@ Media queries and flexible layouts were used to ensure a smooth responsive exper
 
 * **CodeWithHarry – YouTube**
   This project was initially built by following the tutorial and then customized with my own improvements.
-* **Chat Gpt**
-  For industry ready class naems and variable names and for some formatting
 
 ---
 
