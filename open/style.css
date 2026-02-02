@@ -416,16 +416,11 @@ footer .questions {
         width: 555px;
     }
 
-    .firstframe video {
-        width: 255px;
-        top: 44px;
-        right: 39px;
-    }
-
+    .firstframe video,
     .secondframe video {
-        width: 277px;
-        top: 44px;
-        right: 39px;
+        width: 455px;
+        top: 74px;
+        right: 35px;
     }
 
     .faqbox{
@@ -506,9 +501,14 @@ footer .questions {
         width: 333px;
     }
 
-    .firstframe video,
-    .secondframe video {
+    .firstframe video {
         width: 255px;
+        top: 44px;
+        right: 39px;
+    }
+
+    .secondframe video {
+        width: 277px;
         top: 44px;
         right: 39px;
     }
@@ -545,4 +545,3 @@ footer .questions {
         gap: 12px;
     }
 }
-
